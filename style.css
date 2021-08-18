@@ -1,0 +1,99 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    background: black;
+}
+
+h1{
+    color:orangered;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 200%;
+    background-color:#fff;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 200%;
+    background-color:cyan;
+}
+
+
+button{
+    color:rgb(255, 0, 0);
+    border: 3px solid rgb(247, 244, 244);
+    border-radius: 10px;
+    width: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: large; 
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(8, 8, 8);
+}
+button:hover{
+    color:black;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: large; 
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color:yellow;
+    box-sizing: 10%;
+    box-shadow: 0px 0px 10px white;
+}
+
+#coin{
+    width: 1.5in;
+    height: 1.5in;
+    background:white;
+    border-radius: 50%;
+    border:10px solid rgb(7, 11, 223);
+    margin:10px;
+    padding: 20px;
+}
+
+#headTail{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+    position: relative;
+    top: -140px;
+    background: none;
+}
+
+#lastText{
+    animation: blinkEffect 2s linear infinite;
+}
+@keyframes blinkEffect
+{
+    0%{
+        background-color: cyan;
+    }
+    20%
+    {
+        background-color: yellow;
+    }
+    40%{
+        background-color:red;
+    }
+    60%
+    {
+        background-color: white;
+    }
+    80%{
+        background-color: magenta;
+    }
+    100%
+    {
+        background-color: darkorange;
+    }
+    
+}
